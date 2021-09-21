@@ -1,5 +1,5 @@
 def gcd(a, b):
-    if a == 1 or a == 0:
+    if a == 0:
         return b
     b = b % a
     return gcd(b, a)
@@ -17,4 +17,5 @@ def simplify_fraction_bad(n, m):
             
 simplify_fraction(16, 12)
 simplify_fraction_bad(16, 12)
+
 
